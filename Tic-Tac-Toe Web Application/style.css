@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    color: burlywood ;
+    font-family: monospace;
+    text-align: center;
+}
+h1{
+    font-size: 80px;
+}
+.game{
+    height: min-content;
+    display: grid;
+    border: 25%;
+    height: 350px;
+    width: 350px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-self: center;
+    align-self: center;
+}
+.item{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 25%;
+    justify-self: center;
+    align-self: center;
+    margin: 5px;
+    
+}
+.reset{
+    height: 40px;
+    width: 80px;
+    border: 1px solid white;
+}
+a{
+    text-decoration: none;
+    font-family: monospace;
+    color: white;
+}
+p{
+    font-size: 32.5px;
+}
+button{
+    background-color: black;
+    border: none;
+}
+.item:hover{
+    transition: 150ms;
+    transform: scale(1.05);
+}

@@ -1,0 +1,37 @@
+body{
+    font-family: "Montserrat", "sans-serif";
+    background-color: black;
+    color: whitesmoke;
+}
+.main{
+    display: flex;
+    height: 100vh;
+}
+.side-bar{
+    background-color:rgb(49, 47, 47);
+    border-radius: 20px;
+    text-align: left;
+    padding: 0px 7px;
+    height: 320px;
+    width: 150px;
+    position: fixed;
+}
+.nav{
+    display: flex;
+    font-size:20px;
+    flex-direction: column;
+    opacity: 0.8;
+}
+.main-content{
+    background-color:rgb(49, 47, 47);
+    border-radius: 20px;
+    margin-left: 175px;
+    padding: 0.5rem 2rem;
+    width: 1374px;
+    height: max-content;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
