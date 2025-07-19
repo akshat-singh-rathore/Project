@@ -1,0 +1,105 @@
+body {
+  background-color: rgb(251, 248, 204);
+  font-family: "Poppins";
+  color: rgb(3, 4, 94);
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  color: #03045e;
+}
+.top-bar .options{
+    margin-left :600px;
+    position: fixed;
+}
+.top-bar .name{
+    margin-left: 150px;
+    margin-right: 300px;
+    font-weight: 600;
+}
+
+button {
+  border: none;
+  background-color: rgb(251, 248, 204);
+  color: rgb(3, 4, 94);
+  font-family: "Poppins";
+}
+
+.intro{
+    display: flex;
+}
+.intro-text{
+    margin-left: 150px;
+    margin-right: 400px;
+    line-height: 100%;
+    font-size: 20px;
+}
+.introt-text h1{
+    font-size: 100px;
+}
+.intro-text p{
+    font-size: 28px;
+    font-weight: 500;
+}
+.intro .intro-text img{
+    height: 100px;
+    width: 100px;
+}
+img{
+    height: 250px;
+    width: 200px;
+}
+
+/* about Part */
+.about-section{
+    margin-left: 150px;
+}
+.about-section h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: rgb(77, 72, 71);
+}
+.about-section .about{
+    height: 250px;
+    width: 900px;
+}
+.about-section .work-experience{
+    height: 150px;
+    width: 900px;
+    margin-left: 350px;
+}
+
+/* work Part */
+.work-section{
+    margin-left: 150px;
+}
+.work-section .work h1{
+    margin: 0px;
+    font-weight: 800;
+    font-size: 50px;
+    color: rgb(77, 72, 71);
+}
+.work-section .work p{
+    height: 100px;
+    width: 900px;
+}
+
+/* contact Section */
+.contact-section{
+    margin-left: 150px;
+}
+.contact-section h1{
+    margin: 0px;
+    font-weight: 800;
+    font-size: 50px;
+    color: rgb(77, 72, 71);
+}
+.contact-section .contact{
+    margin: 20px;
+}
+.contact-section .links a{
+    margin: 50px;
+    text-decoration: none;
+    color: rgb(3, 4, 94);
+}
